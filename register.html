@@ -1,0 +1,50 @@
+{% extends 'base.html'%}
+{% load static %}
+
+
+{% block a %}
+
+<div class="row">
+
+<div class="col-sm-12 text-center" style="min-height: 80px;">
+
+    <b class="fs-2 ">Regis</b><b class="fs-2 text-primary btm">ter</b>
+
+</div>
+
+<div class="row "style="min-height:550px;">
+
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4 "style="border-radius:10px;border:1px solid #dddddd;">
+
+        <h2 class="mt-1">Create Account </h2><br>
+        <b>Your name</b><br>
+        <input class="btn "style="border:1px solid #949494;" placeholder="First and last name" type="text" name="" id=""><br>
+
+        
+        <b>Mobile number</b><br>
+        <input class="btn "style="border:1px solid #949494;" placeholder="Mobile number" type="number" name="" id=""><br>
+
+        <b>Email</b><br>
+        <input class="btn "style="border:1px solid #949494;" placeholder="Mobile number" type="email" name="" id=""><br>
+
+        <b>Password</b><br>
+        <input class="btn "style="border:1px solid #949494;" placeholder="At least 6 character" type="password" name="" id=""><br>
+
+
+        <p>Passwords must be at least 6 characters.</p><br>
+
+        <p>To verify your number, we will send you a text message with a temporary code. Message and data rates may apply.</p>
+
+        <input class="btn border border-dark w-100 bg-warning"placeholder="submit" type="submit" name="" id="">
+
+
+    </div>
+    <div class="col-sm-4"></div>
+
+</div>
+
+
+</div>
+
+{% endblock%}

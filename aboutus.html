@@ -1,0 +1,39 @@
+{% extends 'base.html'%}
+{% load static %}
+
+
+{% block a %}
+
+<div class="row"style="min-height:100px;">
+
+    <div class="col-sm-12 text-center"><b class="fs-2">About</b> <b class="text-primary fs-2" style="border-bottom: 1px solid blue;">us</b></div>
+
+</div>
+
+<div class="row "style="min-height:400px">
+
+    <div class="col-sm-6">
+        <img  data-aos="zoom-out-left" style="height: 400px;width: 600px;" class="brds ms-5" src="{% static 'images/product.jpeg'%}" alt="">
+
+    </div>
+    <div class="col-sm-6">
+
+        <b style="font-family: cursive;"class="fs-5">Save more with GROCISTORE! We provide you the best <br> cheapest price on all your grocery for daily needs. And <br> We provide you the FRESH FRUITS & VEGETABLE at the <br> lowest price and on your schedule.</b><br>
+        <br>
+        <b>Welcome to  Grocistore.</b>
+        <p>We're dedicated to giving you the very best of product, with a
+             focus on [three characteristics, ie: dependability, 
+             customer service and uniqueness.]</p>
+             <br>
+        <b>Our vision</b><br>
+    
+        <p>To be an independent, innovative, honest and sustainable cooperative
+             in which customers are able to choose from a wide range of goods 
+             at reasonable prices.</p>
+
+    </div>
+
+</div>
+
+
+{% endblock%}
